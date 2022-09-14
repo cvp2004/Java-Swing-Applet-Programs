@@ -21,7 +21,7 @@ public class JLabelApplet extends JApplet {
         ImageIcon imageIcon = new ImageIcon("img.png.jpg");
         JLabel imageLabel = new JLabel(imageIcon);
         
-        imageLabel.setBounds(100, 0, 100, 100);
+        imageLabel.setBounds(100, 0, 200, 200);
 
         add(imageLabel);
         
